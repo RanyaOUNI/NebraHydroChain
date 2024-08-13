@@ -177,28 +177,28 @@ export const navItems = [
       title: "Production and Certification",
       desc: "Estimate Carbon Intensity and provide a digital certificate",
       className: "md:col-span-2",
-      thumbnail: "/exp2.svg",
+      thumbnail: "/certification1.png",
     },
     {
       id: 2,
       title: "Book",
       desc: "Logging certificate in a blockchain based registry",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "/book.png",
     },
     {
       id: 3,
       title: "Claim",
       desc: "Businesses and consumers buy hydrogen credits from the registry",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "/claim.png",
     },
     {
       id: 4,
       title: "Optimization",
       desc: "We optimize Carbon intensity decisions within the value chain",
       className: "md:col-span-2",
-      thumbnail: "/exp2.svg",
+      thumbnail: "/optimization.png",
     },
   ];
   

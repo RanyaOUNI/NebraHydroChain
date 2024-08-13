@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import  Hero  from "@/Components/Hero";
-import {FloatingNav}  from "@/Components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
 import Partners from "@/Components/Partners";
 import { navItems } from "@/Data";
@@ -22,7 +21,6 @@ export default function Home() {
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
         <Header1 />
-        {/* <FloatingNav navItems={navItems} /> */}
         {/* <Navbar /> */}
         <Hero />
         <Partners />

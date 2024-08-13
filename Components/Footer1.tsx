@@ -82,6 +82,18 @@ const Footer1 = () => {
               target="_blank"
               className="text-gray-700 transition hover:opacity-75"
             >
+              <span className="sr-only mt-2 w-100 h-100">LinkedIn</span>
+              <FaLinkedin  className='w-6 h-6'/>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              rel="noreferrer"
+              target="_blank"
+              className="text-gray-700 transition hover:opacity-75"
+            >
               <span className="sr-only">GitHub</span>
 
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

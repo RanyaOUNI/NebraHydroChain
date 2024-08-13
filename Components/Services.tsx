@@ -2,6 +2,7 @@ import React from 'react'
 import { services } from '@/Data/index'
 import { Button} from "@/Components/ui/MovingBorders";
 import { BiBorderRadius } from 'react-icons/bi';
+import Image from 'next/image';
 const Services = () => {
   return (
     <section id='process'>

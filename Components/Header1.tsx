@@ -47,9 +47,10 @@ export default function Nav() {
     <header className="">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="#" className="-m-1.5 p-1.5 flex items-center ">
             <span className="sr-only">Nebra Hydrochain</span>
             <Image src={Logo} alt="NebraHydroChain Logo" height={80} width={80} />
+            <p className="font-bold text-inherit">Nebra Hydrochain</p>
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -111,13 +112,13 @@ export default function Nav() {
             </PopoverPanel>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-White">
+          <a href="#partners" className="text-sm font-semibold leading-6 text-White">
             Partners
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-White">
+          <a href="#services" className="text-sm font-semibold leading-6 text-White">
             Services
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-white">
+          <a href="#process" className="text-sm font-semibold leading-6 text-white">
             Solution
           </a>
           <a href="#footer1" className="text-sm font-semibold leading-6 text-white">
